@@ -1,3 +1,5 @@
+// cors 미적용@
+
 const createError = require('http-errors');
 const express = require('express');
 const path = require('path');

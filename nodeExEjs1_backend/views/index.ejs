@@ -4,14 +4,60 @@
             <div id="container">
                 <div class="innerwrap">
 					<!-- 왼쪽컨텐츠 -->
-					<ul class="left_ul"></ul>
+					<ul class="left_ul">
+						<li class="vocs_box">
+							<span class="s_title">CONCENTRATION (VOCs)</span>
+							<p>
+								<b id="vocs">999</b><small>mg</small> <!-- value.vocs -->
+								<div class="bg_col1" id="colorChange">
+									<div class="roll">
+										<img src="/image/images/hiosStop.png" id="rotate">
+									</div>
+									<span>RPM<b id="rpm"></b></span>
+								</div>
+							</p>
+						</li>
+						<li class="temp_box">
+							<span class="s_title">TEMPERATURE</span>
+							<a href="#"><b id="temp">999</b></a> <!-- href="/Index/tempConfig" --> <!--  value.temp  -->
+						</li>
+						<li class="hum_box">
+							<span class="s_title">HUMIDITY</span>
+							<b id="hum">999</b> <!--  value.hum  -->
+						</li>
 					<!-- //왼쪽컨텐츠 -->
+				</ul>
 					<!-- 오른쪽컨텐츠 -->
-					<ul class="right_ul"></ul>
+					<ul class="right_ul">
+						<li class="sys_time">
+							<a class="set_up_btn" href="#" draggable="false"> <!-- /Index/passwordCheck/config -->
+								<img src="/image/images/set_img.png" alt="setup버튼" draggable="false">
+							</a>
+							<span class="s_title">SYSTEM TIME</span>
+							<div class="time_area">
+								<p id="now_time"></p>
+								<span id="date"></span>
+								<input type="hidden" id="doorCode" value="999"> <!-- value=" type.door_code " -->
+								<input type="hidden" id="fanpwm" value="999"> <!-- value=" type.fanpwm " -->
+							</div>
+						</li>
+						<li class="btn_box">
+
+						</li>
+						<li class="graph_box">
+							<span class="s_title">GRAPH</span>
+							<div class="graph_area">
+								<div id="mini_chart" style="margin:0px; padding:0; width:100%; height: 132px;"></div>
+							</div>
+						</li>
+					</ul>
 					<!-- //오른쪽컨텐츠 -->
                 </div>
 			</div>
 			<!-- //container -->
 
+			<div id="footer">
+				
+			</div> <!-- END HTML -->
 
 <%- include ./footer %>

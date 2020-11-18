@@ -1,9 +1,62 @@
 <!DOCTYPE html>
 <!-- changeTime.php, usbSave.php, graphView.php는 예외사항으로 header, footer적용안함 -->
 <!-- <html style="overflow:hidden; cursor:none;"> -->
-<html>
-  <head>
-    <title>지오필테크</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
+<!-- <html> -->
+<html style="overflow: hidden;"> <!-- cursor:none; -->
+    <head>
+        <meta http-equiv="Content-Type" charset="UTF-8">
+        <meta name="viewport" content="width=1024, height=600, user-scalable=yes">
+        <title>지오필테크</title>
+        <link rel="stylesheet" type="text/css" href="/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+        <!-- index -->
+        <link rel="stylesheet" href="/css/fonts/notosan/notosankr.css" /> 
+        
+        <!-- subPage -->
+        <link rel="stylesheet" href="/css/fonts/seoul_font/seoul_font.css" />
+
+        <link rel="stylesheet" href="/css/Linearicons/demo.css" />
+        <link rel="stylesheet" href="/css/icomoon/icomoon-ultimate.css" />
+        <link rel="stylesheet" href="/css/font-awesome-4.5.0/css/font-awesome.css" />
+        <link rel="stylesheet" href="/css/jquery-ui.css">
+        <script src="/js/jquery-1.7.1.min.js"></script>
+        <script src="/js/jquery-ui.js"></script>
+
+        <link class="include" rel="stylesheet" type="text/css" href="/js/jqplot/jquery.jqplot.min.css" />
+        <script class="include" type="text/javascript" src="/js/jqplot/jquery.jqplot.min.js"></script>
+        <script class="include" type="text/javascript" src="/js/jqplot/jqplot.categoryAxisRenderer.min.js"></script>
+        <script class="include" type="text/javascript" src="/js/jqplot/jqplot.pointLabels.min.js"></script>	
+    </head>
+    <body>
+
+          	<div id="wrapper">
+             	 <!-- header -->
+              	<div id="header">
+                 	 	<div class="consol_name">
+							<!-- <i class="icon-cog"></i>-->
+							<i><a href=""><img src="/image/images/arrow.png" alt=""></a></i> <!-- href="http://172.24.1.1" -->
+							<b>DISPLAY AND CONTROL</b>
+							
+                  		</div>
+                  	<div class="head_right">
+                     	<div class="filter">
+							<span class="clock_alarm">
+								<!--  -->
+
+							</span>	
+							<div><b><a href="#" class="link_col7" style="border: none; color:#888888;">www.zeofiltech.co.kr</a></b></div>
+							<!-- href="/index.php/Index/msgSender" -->
+
+							<!-- <div>   요청에 의해 숨김.. 현재 필터 기능 없음
+								<span id="filterPercent"></span>
+								<ul id="filterBar"></ul>
+							</div> -->
+						  	</div>
+							<div class="logo">
+								<img class="dontDrag" src="/image/images/logo.png" alt="로고" onclick="#"> <!-- 원클릭으로 무엇을 하려한걸까 -->
+							</div>
+                  		</div>
+              		</div>
+              	<!-- /header -->
+          
