@@ -1,9 +1,10 @@
 {
   "name": "nodeexejs1-backend",
   "version": "0.0.0",
+  "description": "",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "nodemon app.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
